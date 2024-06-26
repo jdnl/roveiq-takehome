@@ -1,0 +1,433 @@
+{
+  "meta": {
+    "version": "1",
+    "requestedAt": "2021-05-21T19:52:04.620416095Z"
+  },
+  "data": {
+    "kiosk": {
+      "id": 11,
+      "created_at": "2018-05-22T13:12:52.397Z",
+      "updated_at": "2021-04-13T19:18:58.127945Z",
+      "venue_id": 4,
+      "name": "Lobby Kiosk",
+      "serial_number": "HQ1",
+      "latitude": 39.09466227331467,
+      "longitude": -84.49622824,
+      "manufactured_at": "2018-05-22T04:00:00Z",
+      "installed_on": "2018-05-22T04:00:00Z",
+      "description": null,
+      "settings": {
+        "defaultZoom": "17.58",
+        "defaultPitch": "33",
+        "easternBoundOffset": "0.013",
+        "westernBoundOffset": "0.015",
+        "northernBoundOffset": "0.012",
+        "southernBoundOffset": "0.014",
+        "defaultCenterLatitude": "39.094823374028266",
+        "defaultCenterLongitude": "-84.496856038293"
+      }
+    },
+    "screen": {
+      "id": 21,
+      "created_at": "2018-05-22T13:12:52.426Z",
+      "updated_at": "2021-02-22T18:58:01.224898Z",
+      "kiosk_id": 11,
+      "ds_theme_id": 6,
+      "size": "55",
+      "name": "Screen 1",
+      "description": "First Screen test",
+      "ip_address": null,
+      "netmask": null,
+      "hostname": null,
+      "screen_index": 1,
+      "camera_index": 1,
+      "home_message": "Welcome to SmartLINK",
+      "settings": {
+        "showAlerts": false,
+        "cameraRotation": 180,
+        "defaultBearing": "90",
+        "restartCronPattern": ""
+      }
+    },
+    "venue": {
+      "id": 4,
+      "created_at": "2018-05-22T13:08:18.93Z",
+      "updated_at": "2021-04-13T19:18:58.126895Z",
+      "name": "Smartlink HQ",
+      "description": "The home of Smartlink",
+      "phone": "5137136779",
+      "phone_country": null,
+      "email": null,
+      "address1": "16 E 11th St",
+      "address2": null,
+      "city": "Newport",
+      "state": "KY",
+      "zip": 41071,
+      "country": null,
+      "template_id": 4,
+      "settings": {
+        "web": {
+          "search": {
+            "events": true,
+            "amenities": true,
+            "locations": true
+          },
+          "enabled": true,
+          "themeId": 14,
+          "geofenceNW": {
+            "latitude": 0,
+            "longitude": 0
+          },
+          "geofenceSE": {
+            "latitude": 0,
+            "longitude": 0
+          },
+          "allowOverage": true,
+          "defaultMapCenter": {
+            "lat": "39.094823374028266",
+            "lng": "-84.496856038293"
+          }
+        },
+        "searchItems": {
+          "events": true,
+          "amenities": true,
+          "locations": true,
+          "googlePlaces": false
+        },
+        "displaySettings": {
+          "showTapToStart": true,
+          "showAmberAlerts": false,
+          "overlayAnimation": "tap",
+          "swipeSensitivity": 200,
+          "adTransitionSpeed": "fast",
+          "inactivityTimeout": "30",
+          "adSlideShowTimeout": "10000",
+          "customOverlayGraphic": null,
+          "overlayAnimationDuration": 3000,
+          "showConnectivityTriangle": true,
+          "showCustomOverlayGraphic": false
+        },
+        "googleMapSettings": {
+          "defaultMode": "hybrid",
+          "geofenceRadius": 2000,
+          "allowSwitchingModes": true
+        }
+      }
+    },
+    "schedules": [
+      {
+        "id": 1812,
+        "created_at": "2021-05-14T19:22:23.330189Z",
+        "updated_at": "2021-05-14T19:22:23.330189Z",
+        "campaign_id": 1033,
+        "user_id": 1,
+        "ads": [
+            {
+                "id": 3342,
+                "created_at": "2021-08-20T21:14:05.283555Z",
+                "updated_at": "2021-08-20T21:14:05.283555Z",
+                "img_url": "https://smartlink-kiosk-cms-ads.s3.us-east-2.amazonaws.com/e886bfa5-29b8-4c7d-992e-2c330482c326.jpg",
+                "width": 1080,
+                "height": 1920
+            }
+        ]
+      },
+      {
+        "id": 1813,
+        "created_at": "2021-05-14T19:22:23.330189Z",
+        "updated_at": "2021-05-14T19:22:23.330189Z",
+        "campaign_id": 1033,
+        "user_id": 1,
+        "ads": [
+            {
+                "id": 3343,
+                "created_at": "2021-08-20T21:14:05.283555Z",
+                "updated_at": "2021-08-20T21:14:05.283555Z",
+                "img_url": "https://smartlink-kiosk-cms-ads.s3.us-east-2.amazonaws.com/9da7d48a-7452-422a-b176-33d457c22eed.mp4",
+                "width": 1080,
+                "height": 1920
+            }
+        ]
+      },
+      {
+        "id": 1814,
+        "created_at": "2021-05-14T19:22:23.330189Z",
+        "updated_at": "2021-05-14T19:22:23.330189Z",
+        "campaign_id": 1033,
+        "user_id": 1,
+        "ads": [
+            {
+                "id": 3344,
+                "created_at": "2021-08-20T21:14:05.283555Z",
+                "updated_at": "2021-08-20T21:14:05.283555Z",
+                "img_url": "https://smartlink-kiosk-cms-ads.s3.us-east-2.amazonaws.com/1ed830a4-fe6f-4ae3-b9a0-dc780d60a997.mp4",
+                "width": 1080,
+                "height": 1920
+            }
+        ]
+      },
+      {
+        "id": 1815,
+        "created_at": "2021-05-14T19:22:23.330189Z",
+        "updated_at": "2021-05-14T19:22:23.330189Z",
+        "campaign_id": 1033,
+        "user_id": 1,
+        "ads": [
+            {
+                "id": 3345,
+                "created_at": "2021-08-20T21:14:05.283555Z",
+                "updated_at": "2021-08-20T21:14:05.283555Z",
+                "img_url": "https://smartlink-kiosk-cms-ads.s3.us-east-2.amazonaws.com/56b9befc-55ee-4d6a-9f2a-e2d1b5a755e8.jpg",
+                "width": 1080,
+                "height": 1920
+            }
+        ]
+      }
+    ],
+    "alerts": [],
+    "events": [],
+    "locations": [
+        {
+            "id": 75,
+            "created_at": "2018-11-20T21:18:26.105632Z",
+            "updated_at": "2019-06-18T20:13:18.367888Z",
+            "venue_id": 9,
+            "name": "Arclinea",
+            "description": "The company was set up in Caldogno in 1925 with the name of its founder, Silvio Fortuna Senior, who resumed the business started by his great-grandfather in 1816 and interrupted a century later by the war. It was an artisan laboratory specializing in wood-working, with a vocation for quality.",
+            "url": null,
+            "facebook_url": null,
+            "twitter_url": null,
+            "instagram_url": null,
+            "phone": "3055721273",
+            "phone_country": null,
+            "email": null,
+            "address1": "30 NE 39th St.",
+            "address2": null,
+            "city": "Miami",
+            "state": "FL",
+            "zip": 33137,
+            "country": null,
+            "banner_img": "https://smartlink-kiosk-cms-ads.s3.us-east-2.amazonaws.com/abe7b07f-1d50-4df4-b7b5-e01b17106252.jpg",
+            "logo_img": "https://smartlink-kiosk-cms-ads.s3.us-east-2.amazonaws.com/29722cca-f510-4f62-957c-ebc827d9e8db.jpg",
+            "hours": "Monday to Saturday 11am - 8pm Sunday 12pm - 6pm"
+        },
+        {
+            "id": 119,
+            "created_at": "2018-11-20T21:18:28.149735Z",
+            "updated_at": "2021-01-18T15:59:59.701298Z",
+            "venue_id": 9,
+            "name": "Emilio Robba",
+            "description": "Baptized by the press asthe sculptor of flowers, Emilio Robba designs his own collection of artificial flowers.",
+            "url": "http://www.emiliorobba.com",
+            "facebook_url": null,
+            "twitter_url": null,
+            "instagram_url": null,
+            "phone": "3055720203",
+            "phone_country": null,
+            "email": null,
+            "address1": "4242 NE 2nd Ave.",
+            "address2": null,
+            "city": "Miami",
+            "state": "FL",
+            "zip": 33137,
+            "country": null,
+            "banner_img": "https://smartlink-kiosk-cms-ads.s3.us-east-2.amazonaws.com/b8f71250-e869-449e-b148-1c767b781b1f.jpg",
+            "logo_img": "https://smartlink-kiosk-cms-ads.s3.us-east-2.amazonaws.com/f9c536ea-715a-4b11-b650-019b9e78da14.jpg",
+            "hours": "Monday to Friday 10am - 6pm Saturday and Sunday Closed"
+        },
+        {
+            "id": 145,
+            "created_at": "2018-11-20T21:18:29.355448Z",
+            "updated_at": "2021-01-18T19:42:40.441936Z",
+            "venue_id": 9,
+            "name": "IGK Salon",
+            "description": "The future or hairdressing",
+            "url": "http://www.igkhair.com",
+            "facebook_url": null,
+            "twitter_url": null,
+            "instagram_url": null,
+            "phone": null,
+            "phone_country": null,
+            "email": null,
+            "address1": "3930 NE 2nd Ave. ",
+            "address2": null,
+            "city": "Miami",
+            "state": "FL",
+            "zip": 33137,
+            "country": null,
+            "banner_img": "https://smartlink-kiosk-cms-ads.s3.us-east-2.amazonaws.com/f47b2dac-1183-472d-83f6-69003ae5f84e.jpg",
+            "logo_img": "https://smartlink-kiosk-cms-ads.s3.us-east-2.amazonaws.com/6ec63ce4-5c35-4aaa-8819-d7125ff9b01e.jpg",
+            "hours": "By Appointment Only: Monday to Saturday 11am - 8pm Sunday 11am - 7pm "
+        },
+        {
+            "id": 212,
+            "created_at": "2018-11-20T21:18:32.477332Z",
+            "updated_at": "2021-01-18T19:58:41.84331Z",
+            "venue_id": 9,
+            "name": "Nisi B Home",
+            "description": "Furniture, Lighting, Accessories, Carpets, Art",
+            "url": "http://www.nisibhome.com",
+            "facebook_url": null,
+            "twitter_url": null,
+            "instagram_url": null,
+            "phone": "3055731939",
+            "phone_country": null,
+            "email": null,
+            "address1": "39 NE 39th St.",
+            "address2": null,
+            "city": "Miami",
+            "state": "FL",
+            "zip": 33137,
+            "country": null,
+            "banner_img": "https://smartlink-kiosk-cms-ads.s3.us-east-2.amazonaws.com/ad6b1d51-73bd-40f7-9e1e-b682a02d97fe.jpg",
+            "logo_img": "https://smartlink-kiosk-cms-ads.s3.us-east-2.amazonaws.com/d49d5f49-011d-41b8-8ee9-d8a03d86adbe.jpg",
+            "hours": "Monday to Friday 10am - 6pm Saturday 12am - 5pm Sunday Closed"
+        },
+        {
+            "id": 181,
+            "created_at": "2018-11-20T21:18:31.032964Z",
+            "updated_at": "2021-01-18T19:58:09.054596Z",
+            "venue_id": 9,
+            "name": "Luminaire Lab",
+            "description": "Modern and contemporary design showroom",
+            "url": "http://www.luminaire.com",
+            "facebook_url": null,
+            "twitter_url": null,
+            "instagram_url": null,
+            "phone": "3055765788",
+            "phone_country": null,
+            "email": null,
+            "address1": "3901 NE 2nd Ave.",
+            "address2": null,
+            "city": "Miami",
+            "state": "FL",
+            "zip": 33137,
+            "country": null,
+            "banner_img": "https://smartlink-kiosk-cms-ads.s3.us-east-2.amazonaws.com/5d584215-c56f-4f72-be10-e773f8f2749c.jpg",
+            "logo_img": "https://smartlink-kiosk-cms-ads.s3.us-east-2.amazonaws.com/bc38d282-d556-4f96-acee-89a0e1b27e35.jpg",
+            "hours": "Monday to Friday 10am - 6pm Saturday 10am - 6pm Sunday Closed"
+        },
+        {
+            "id": 208,
+            "created_at": "2018-11-20T21:18:32.293578Z",
+            "updated_at": "2021-01-18T20:26:46.838668Z",
+            "venue_id": 9,
+            "name": "MRKT",
+            "description": "Modern, minimalist boutique displaying high-end men's clothing, shoes and shades.",
+            "url": "http://www.mrktdeux.com",
+            "facebook_url": null,
+            "twitter_url": null,
+            "instagram_url": null,
+            "phone": "3055733330",
+            "phone_country": null,
+            "email": null,
+            "address1": "3824 NE 2nd Ave.",
+            "address2": null,
+            "city": "Miami",
+            "state": "FL",
+            "zip": 33137,
+            "country": null,
+            "banner_img": "https://smartlink-kiosk-cms-ads.s3.us-east-2.amazonaws.com/effa2150-e535-46c8-98b8-4525c0e44594.jpg",
+            "logo_img": "https://smartlink-kiosk-cms-ads.s3.us-east-2.amazonaws.com/5f3e8de1-ed49-44f3-93ef-788aad871407.jpg",
+            "hours": "Monday to Saturday 11am - 8pm Sunday 12pm - 6pm"
+        },
+        {
+            "id": 259,
+            "created_at": "2018-11-20T21:18:34.641742Z",
+            "updated_at": "2021-01-18T19:59:40.288831Z",
+            "venue_id": 9,
+            "name": "Swampspace",
+            "description": "Swampspace is the un-gallery in the Miami Design District",
+            "url": "http://swampspace.blogspot.com/",
+            "facebook_url": null,
+            "twitter_url": null,
+            "instagram_url": null,
+            "phone": "3057108631",
+            "phone_country": null,
+            "email": null,
+            "address1": "3940 North Miami Ave.",
+            "address2": null,
+            "city": "Miami",
+            "state": "FL",
+            "zip": 33137,
+            "country": null,
+            "banner_img": "https://smartlink-kiosk-cms-ads.s3.us-east-2.amazonaws.com/920133fd-13e2-45bd-a0a0-f263a2d08ef8.jpg",
+            "logo_img": "https://smartlink-kiosk-cms-ads.s3.us-east-2.amazonaws.com/3df209c2-9039-4fd9-9a71-eff3cd9ff35f.png",
+            "hours": "Monday to Saturday 11am - 7pm Sunday Closed "
+        }
+    ],
+    "css": ":root {\n  --handicap-spacer-color: #25282C;\n  --handicap-spacer-image: url('https://smartlink-kiosk-cms-ads.s3.us-east-2.amazonaws.com/9da6cfa9-b275-4021-9b43-8091b430fc44.png');\n  --notification-background-color: #111111;\n  --sub-menu-item-border-and-text-color: #25282C;\n  --template-font-color: #25282C;\n  --location-banner-image-height: 350px;\n  --font-size: 18px;\n}\n#overlays .overlay {\n\theight: auto;\n}\n.socialBlock h3 {\n  color: white;\n}\n#socialMediaContainer h1 {\n  color: white;\n}\n#searchResultsContainer h1, #searchResultsContainer h2 {\n  color: white;\n}\n.globalHome .home-image {\n  background-image: url('https://smartlink-kiosk-cms-ads.s3.us-east-2.amazonaws.com/d2ffda4f-40ce-47d2-9ee1-8f4273fd71ef.jpg');\n}\n.globalHome .bottomIcon {\n  color: #25282C;\n}\n\n.globalHome .menu-bottomIcon {\n  color: #ffffff;\n  font-size: 48px;\n}\n\n.globalHome .homeMenuImage {\n  background-image: url('https://smartlink-kiosk-cms-ads.s3.us-east-2.amazonaws.com/65dbace8-0d4d-4a0c-83b0-e9bd07b70f69.jpg');\n}\n.globalHome .mainContainer {\n  background-color: #B4B4B4;\n}\n.globalHome .homeContainer {\n  background-color: #25282C;\n}\nheader.info-bar {\n  background-color: #111111;\n  color: #FFFFFF;\n}\nheader.info-bar svg path {\n  fill: #FFFFFF;\n}\n.globalHome .menuButtonHome {\n  background-color: #494949;\n}\n.globalHome .homeMenuButtons .bottomIcon {\n  color: #494949;\n}\n.globalHome .insideButton {\n  color: #25282C;\n}\n.globalHome .menuButtonHomeSubText {\n  color: #25282C;\n}\n.globalHome .insideButton .icon {\n  color: #FFFFFF;\n}\n.globalHome #menu {\n  background: linear-gradient(to bottom, #0E1F44 0%,#325DAA 50%,#0E1F44 100%);\n}\n.globalHome .menuButton {\n  color: #FFFFFF;\n}\n.globalHome .activeMenuItem {\n  background-color: #FFFFFF;\n  color: #25282C;\n}\n.subMenu .subMenuButton {\n  background-color: #0E1F44;\n}\n.subMenuButton {\n  color: #25282C;\n  border-bottom: 3px solid #25282C;\n}\n.main-view-overlay {\n  border-left: 5px solid #25282C;\n  border-right: 5px solid #25282C;\n  border-bottom: 5px solid #25282C;\n}\n.header-bar {\n  background-color: #FFFFFF;\n  border: 5px solid #25282C;\n  color: #25282C;\n}\n.scrollMore {\n  background-color: #25282C;\n}\n.eventHolder {\n  border: 2px solid #25282C;\n}\n.date-text {\n  color: #25282C\n}\n.location-listing-container {\n  border: 1px solid #25282C\n}\n\n.location-listing-container .location-text {\n  font-size: 24px;\n}\n.search-result-item.row {\n  border: 1px solid #25282C\n}\n\n.empty-listing {\n  color: #25282C;\n}\n.empty-listing-short {\n  color: #25282C;\n}\n#app .keyboard-overlay #keyboard-container {\n  background-color: #FFFFFF;\n  border: 4px solid #25282C;\n  border-radius: 0px;\n}\n#app .keyboard-overlay .vue-keyboard-key {\n  border: 4px solid #25282C;\n  font-size: 40px;\n  padding: 8px;\n  border-radius: 0px;\n  color: #25282C;\n  background-color: #FFFFFF;\n}\n#app .keyboard-overlay .vue-keyboard-key:active {\n  color: #FFFFFF;\n  background-color: #25282C;\n}\n\n#app .keyboard-overlay button[data-text=\"enter\"] {\n  background: #FFFFFF;\n  color: #25282C;\n  border: 4px solid #25282C;\n  width: 250px;\n}\n#app .keyboard-overlay button[data-text=\"enter\"]:active {\n  background: #25282C;\n  color: #FFFFFF;\n}\n#app .keyboard-overlay #textInput {\n  border-radius: 0px;\n  background-color: #FFFFFF;\n  border: 4px solid #25282C;\n}\n#app .mappedin-wrapper .map-tooltip-container,\n#app .mappedin-floor-changer .active,\n#app .mappedin-floor-changer .button.active {\n  background-color: #6C6C6C\n}\n#app .mappedin-floor-changer .floorSelector,\n#app .mappedin-floor-changer .button,\n#app .mappedin-floor-changer .button.resetButton {\n  background-color: #25282C\n}\n#app .mappedin-floor-changer .active {\n  background-color: #1077DD\n}\n#app .detailsHolder #viewOnMapButton,\n#app .subMenu .amenity-type-view-on-map-button,\n#app .menubar .amenity-type-view-on-map-button {\n  background-color: #25282C;\n  color: #FFFFFF;\n}\n\n\nhtml {\n\tfont-family: 'MDDCustomFont', 'Neutraface 2 Text Demi', 'Neutraface 2 Text', Arial, sans-serif; \n}\n.globalHome {\n\t--font-family: 'MDDCustomFont', 'Neutraface 2 Text Demi', 'Neutraface 2 Text', Arial, sans-serif; \n}\n:root {\n  --font-family: 'MDDCustomFont', 'Neutraface 2 Text Demi', 'Neutraface 2 Text', Arial, sans-serif;\n}",
+    "amenities": [
+      {
+        "id": 31,
+        "created_at": "2019-05-28T19:55:05.257596Z",
+        "updated_at": "2019-12-10T20:07:07.569946Z",
+        "venue_id": 4,
+        "name": "Test Restroom 1",
+        "description": null,
+        "mappedin_id": "",
+        "google_place_id": null,
+        "latitude": 39.094046,
+        "longitude": -84.498467,
+        "icon": null,
+        "amenity_type_ids": null,
+        "category_ids": null,
+        "amenity_types": [
+          {
+            "id": 1,
+            "created_at": "2018-11-29T18:24:34.577978Z",
+            "updated_at": "2018-11-29T18:24:34.577978Z",
+            "name": "Restrooms"
+          }
+        ]
+      },
+      {
+        "id": 170,
+        "created_at": "2019-12-09T22:03:10.760715Z",
+        "updated_at": "2019-12-09T22:03:10.760715Z",
+        "venue_id": 4,
+        "name": "Test ATM 1",
+        "description": null,
+        "mappedin_id": null,
+        "google_place_id": null,
+        "latitude": 39.094821,
+        "longitude": -84.496191,
+        "icon": null,
+        "amenity_type_ids": null,
+        "category_ids": null,
+        "amenity_types": [
+          {
+            "id": 2,
+            "created_at": "2018-11-29T18:24:40.53558Z",
+            "updated_at": "2019-01-21T20:28:28.864893Z",
+            "name": "ATM"
+          }
+        ]
+      },
+      {
+        "id": 169,
+        "created_at": "2019-12-09T22:02:33.018961Z",
+        "updated_at": "2019-12-10T20:08:07.476599Z",
+        "venue_id": 4,
+        "name": "Test Restroom 2",
+        "description": "Test Restroom 2",
+        "mappedin_id": null,
+        "google_place_id": null,
+        "latitude": 39.096132,
+        "longitude": -84.49601,
+        "icon": null,
+        "amenity_type_ids": null,
+        "category_ids": null,
+        "amenity_types": [
+          {
+            "id": 1,
+            "created_at": "2018-11-29T18:24:34.577978Z",
+            "updated_at": "2018-11-29T18:24:34.577978Z",
+            "name": "Restrooms"
+          }
+        ]
+      }
+    ]
+  },
+  "errors": null
+}

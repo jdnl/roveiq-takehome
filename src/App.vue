@@ -7,9 +7,17 @@
 </template>
 
 <script setup>
+import { onMounted } from 'vue'
+import { useStore } from 'vuex'
 import LocationList from './components/LocationList.vue'
 import LocationDetails from './components/LocationDetails.vue'
 import AdSlideShow from './components/AdSlideShow.vue'
+
+const store = useStore()
+
+onMounted(() => {
+  store.dispatch('fetchData')
+})
 </script>
 
 <style>
