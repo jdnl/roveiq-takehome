@@ -3,12 +3,16 @@ import { createStore } from 'vuex'
 export default createStore({
   state() {
     return {
-      locations: []
+      locations: [],
+      currentLocation: null
     }
   },
   mutations: {
     setLocations(state, locations) {
       state.locations = locations
+    },
+    setCurrentLocation(state, location) {
+      state.currentLocation = location
     }
   },
   actions: {
@@ -21,7 +25,13 @@ export default createStore({
       } catch (error) {
         console.error('Failed to fetch data:', error)
       }
+    },
+    setCurrentLocation({ commit }, location) {
+      commit('setCurrentLocation', location)
     }
   },
-  getters: {}
+  getters: {
+    locations: (state) => state.locations,
+    currentLocation: (state) => state.currentLocation
+  }
 })
