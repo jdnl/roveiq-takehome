@@ -1,9 +1,14 @@
 <template>
   <h2>LocationDetails</h2>
-  <p>Banner: {{ currentLocation.banner_img }}</p>
-  <p>Logo: {{ currentLocation.logo_img }}</p>
+  <img :src="currentLocation.banner_img" />
+  <img :src="currentLocation.logo_img" />
   <p>Name: {{ currentLocation.name }}</p>
   <p>Description: {{ currentLocation.description }}</p>
+  <p>Hours: {{ currentLocation.hours }}</p>
+  <p>
+    Address: {{ currentLocation.address1 }} {{ currentLocation.address2 }}
+    {{ currentLocation.city }}, {{ currentLocation.state }}
+  </p>
 </template>
 
 <script setup>
