@@ -24,17 +24,16 @@ onMounted(() => {
 #container {
   display: flex;
   height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
 }
-.left-pane {
+.left-pane,
+.right-pane {
   flex: 20%;
-  border: solid 10px;
+  padding: 10px;
+  background-color: whitesmoke;
 }
 .center-pane {
   flex: 60%;
-  border: solid 10px;
-}
-.right-pane {
-  flex: 20%;
-  border: solid 10px;
+  padding: 10px;
 }
 </style>

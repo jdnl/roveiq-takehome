@@ -1,5 +1,4 @@
 <template>
-  <h2>AdSlideShow</h2>
   <div v-if="ads.length">
     <img class="ad-media" v-if="currentAd.endsWith('.jpg')" :src="currentAd" />
     <video class="ad-media" v-if="currentAd.endsWith('.mp4')" :src="currentAd" />

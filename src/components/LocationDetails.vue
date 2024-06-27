@@ -1,5 +1,4 @@
 <template>
-  <h2>LocationDetails</h2>
   <div v-if="currentLocation">
     <img :src="currentLocation.banner_img" />
     <img :src="currentLocation.logo_img" />
