@@ -29,7 +29,7 @@ export default createStore({
   actions: {
     async fetchData({ commit }) {
       try {
-        const response = await fetch('/src/assets/data.json')
+        const response = await fetch('https://testapi.io/api/ndenlinger/roveiq')
         const data = await response.json()
         console.debug('Pushing locations to mutator:', data.data.locations)
         commit('setLocations', data.data.locations)
