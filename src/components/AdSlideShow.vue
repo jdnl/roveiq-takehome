@@ -1,7 +1,7 @@
 <template>
-  <div v-if="ads.length">
+  <div v-if="ads.length" class="ad-container">
     <img class="ad-media" v-if="currentAd.endsWith('.jpg')" :src="currentAd" />
-    <video class="ad-media" v-if="currentAd.endsWith('.mp4')" :src="currentAd" />
+    <video class="ad-media" autoplay v-if="currentAd.endsWith('.mp4')" :src="currentAd" />
   </div>
 </template>
 
@@ -24,8 +24,17 @@ const currentAd = computed(() => {
 </script>
 
 <style scoped>
+.ad-container {
+  width: 80%;
+  height: 80%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  margin: 0 auto;
+}
+
 .ad-media {
-  width: 100%;
-  height: auto;
+  max-height: 100%;
+  max-width: 100%;
 }
 </style>

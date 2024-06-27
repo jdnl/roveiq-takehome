@@ -33,7 +33,7 @@ onMounted(() => {
   background-color: whitesmoke;
 }
 .center-pane {
-  flex: 60%;
+  flex: 80%;
   padding: 10px;
 }
 </style>
